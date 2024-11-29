@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar section */
+.navbar {
+    padding: 10px 20px;
+}
+ i{
+    color: black;
+}
+.navbar-brand {
+    font-weight:700;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.navbar .nav-link{
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: color 0.7s ease;
+}
+.navbar .nav-link:hover{
+    color: blueviolet;
+}
+/* hero section */
+.hero-section {
+    background-image: url(https://www.wiley.com/content/dam/wiley-dotcom/en/b2c/images/hero/Pro-DevelopmentCourses-Hero.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left:-410px ;
+    color: white;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-left: -410px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-left: -410px;
+    transition: 0.7s;
+}
+
+.hero-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* courses section */
+.courses-section{
+    background-color: #ffffff;
+}
+.courses-section h2{
+    font-size: 1.5rem;
+    color: black;
+}
+.courses-section p{
+    font-size: 1.5rem;
+    color: black;
+}
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: ease .6s;
+    width: 100%;
+    margin: auto;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-img-top{
+    width: 100vh;
+    height: 50%;
+}
+.card-body {
+    background-color: #ffffff;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+.card-title h4 {
+    color: black;
+}
+
+.card-text p{
+    color: #495057;
+}
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+/* topic section */
+.topic-section{
+    background-color: #ffffff;
+}
+.topic-section h2{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+.card{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: ease .6s;
+    width: 100%;
+    margin: auto;
+    height: 90vw;
+}
+.card-title h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+/* contact us section */
+.contactus-section{
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: -30px;
+}
+.contactus-section h2{
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+}
+.contactus-section form{
+    display: flex;
+    flex-direction: column;
+}
+.contactus-section label{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.contactus-section input{
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 60px;
+    width: 50%;
+    margin: auto;
+}
+ .contactus-section button{
+    padding: 10px 20px;
+    color: black;
+    border: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .6s;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 20%;
+    margin-bottom: 10px;
+}
+.contactus-section button:hover{
+    background-color: aliceblue;
+}
+/* footer section */
+footer{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
